@@ -58,9 +58,9 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    'https://daniforms.netlify.app/'
-]
+# CORS_ALLOWED_ORIGINS = [
+#     'https://daniforms.netlify.app/'
+# ]
 
 ROOT_URLCONF = 'API.urls'
 
