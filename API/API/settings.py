@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-mpinfp5h!wsg#71u4c-*6j-jru@$ychegz$gywa!gy#d@^ak&^
 DEBUG = False
 # DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'danform.herokuapp.com']
+ALLOWED_HOSTS = ['localhost']
 # ALLOWED_HOSTS = []
 
 
