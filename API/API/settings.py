@@ -25,11 +25,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-mpinfp5h!wsg#71u4c-*6j-jru@$ychegz$gywa!gy#d@^ak&^'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-# DEBUG = True
+# DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'danform.herokuapp.com']
-# ALLOWED_HOSTS = []
+# ALLOWED_HOSTS = ['localhost', 'danform.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
