@@ -1,5 +1,3 @@
-from distutils.command.upload import upload
-from re import T
 from django.db import models
 
 # Create your models here.
@@ -8,6 +6,5 @@ class Product(models.Model):
     name=models.CharField(max_length=200, null=True)
     description=models.TextField(blank=True)
     price=models.CharField(max_length=200, null=True)
-    date= models.DateTimeField(auto_now_add=True)
-
+    date=models.DateTimeField(auto_now_add=True)
 
